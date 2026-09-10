@@ -12,6 +12,7 @@ Weathering in mining overall is important to track for environmental purposes: a
   <img width="3500" height="1889" alt="MQ1716-030-PPL-smaller-size" src="https://github.com/user-attachments/assets/d78638ae-4f3f-4d66-b95c-2c8e61f28e9b">
   <figcaption><i>Figure 1: A whole thin section scan from Macquarie Island (Southern Ocean, Australia) showing extensive weathering in the form for of reddish-brown iddingsite patches.</i></figcaption>
 </figure>
+
 ### Example of training process
 The pipeline is relatively simple: first the alteration area is manually selected in FIJI with a color threshold then refined manually by adding/removing the relevant areas in the pictures. The hidden laers use a combination of linear laers and leakyReLU to prevent neuron from shutting down, together with Adam opitimizer with a lr set to 0.001. Then a binary mask displaying what the model needs to recognise is outputted with the standard Sigmoid() function as we need only a binary classification: altered vs. pristine.
 
