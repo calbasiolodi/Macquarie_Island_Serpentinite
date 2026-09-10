@@ -16,7 +16,7 @@ Weathering in mining overall is important to track for environmental purposes: a
 
 
 ### Example of training process
-The pipeline is relatively simple: first the alteration area is manually selected in FIJI with a color threshold then refined manually by adding/removing the relevant areas in the pictures. Then a binary mask displaying what the model needs to recognise is outputted.
+The pipeline is relatively simple: first the alteration area is manually selected in FIJI with a color threshold then refined manually by adding/removing the relevant areas in the pictures. The hidden laers use a combination of linear laers and leakyReLU to prevent neuron from shutting down, together with Adam with a lr set to 0.001. Then a binary mask displaying what the model needs to recognise is outputted with the standard Sigmoid() function as we need only a binary classification: altered vs. pristine.
 
 <img width="2424" height="2424" alt="1702-01300" src="https://github.com/user-attachments/assets/121273d7-ca9e-4a05-90ab-91e95b814ba4" />
 <figcaption>A thin section from another sample (MQ17-02). This is one of the training images. Of course the scale has been removed :)</figcaption>
