@@ -10,5 +10,5 @@ Weathering in mining overall is important to track for environmental purposes: a
 <figcaption>A whole thin section scan from Macquarie Island (Southern Ocean, Australia) showing extensive weathering in the form for of reddish-brown iddingsite patches.</figcaption>
 
 
-##Weathering as a predictor of element transfer
+## Weathering as a predictor of element transfer
 Weathering is known to mobilise specific elements: most importantly sulphur, calcium, iron and magnesium. In addition, trace elements such as As, Pb and Cd are exceptionally mobile and extremely important to track for enviromental management.
