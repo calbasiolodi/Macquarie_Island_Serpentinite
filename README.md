@@ -1,4 +1,4 @@
-# Macquarie_Island_Serpentinite
+# Macquarie_Island_Serpentinite (CV and modal quantification of alteration patches)
 A variety of case studies on Macquarie Island datasets. This spans from experimental applications of lean PyTorch models to identify alteration textures to QC adided by scikit-learn PCA.
 
 ## Weathering as a predictor of element transfer
