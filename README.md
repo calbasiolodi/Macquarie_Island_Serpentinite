@@ -1,5 +1,5 @@
 # Macquarie_Island_Serpentinite (CV and modal quantification of alteration patches)
-A variety of case studies on Macquarie Island datasets. This spans from experimental applications of lean PyTorch models to identify alteration textures to QC adided by scikit-learn PCA.
+A variety of case studies on Macquarie Island datasets. This spans from experimental applications of lean PyTorch models to identify alteration textures to QC adided by scikit-learn PCA. In this specific project we focus on computer vision (CV) with PyTorch.
 
 ## Weathering as a predictor of element transfer
 Weathering is known to mobilise specific elements: most importantly sulphur, calcium, iron and magnesium. In addition, trace elements such as As, Pb and Cd are exceptionally mobile and extremely important to track for enviromental management.
